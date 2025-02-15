@@ -1,0 +1,35 @@
+/* sidebar styling is made by Kevin */
+
+.sidebar{
+    height: 100vh;
+    width: 50px;
+    background-color: white;
+    padding-top: 0px;
+    position: fixed;
+    left: 25;
+    top: 75;
+}
+
+.sidebar a{
+
+    padding: 0px 15px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 25px 0;
+    display: block;
+    display: flex;
+}
+
+.user{
+
+    position:absolute;
+    bottom: 100px;
+}
+
+.sidebar a i{
+
+    margin-right: 10px;
+    font-size: 20px;
+
+}
