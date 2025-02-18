@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 body {
     margin: 0;
     padding: 0;
@@ -15,11 +13,11 @@ header {
    align-items: center;
    width: auto;
    gap: 5px;
-   
+   left: 10px;
 }
 
 header > i {
-    font-size: 24px;
+    font-size: 42px;
     display: flex;
     flex-shrink: 1;
 }
@@ -66,13 +64,15 @@ header > i {
 }
 
 .time {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .date {
-    color: lightgray;
+    color: black;
     font-size: 14px;
+    padding-left: 35px;
 }
 
 .rightsidebar {
@@ -91,6 +91,7 @@ header > i {
 }
 h1 {
     font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -105,6 +106,7 @@ h1 {
     margin-top: px;
     padding: 25px;
 }
+
 .card {
     display: flex;
     align-items: flex-start;
@@ -122,6 +124,7 @@ h1 {
     align-items: center;
     gap: 8px;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .text {
@@ -231,7 +234,51 @@ tag {
     height: auto;
 }
 
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+.sidebar{
+    height: 100vh;
+    width: 50px;
+    background-color: white;
+    padding-top: 0px;
+    position: fixed;
+    left: 25;
+    top: 75;
+}
+
+.sidebar a{
+
+    padding: 0px 50px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 25px 0;
+    display: block;
+    display: flex;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.user{
+
+    position:absolute;
+    bottom: 150px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 7px;
+    size: 10px;
+
+}
+
+.sidebar a i{
+
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+.dashboard-button{
+    padding: 0px 50px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
