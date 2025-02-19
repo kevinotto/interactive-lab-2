@@ -294,3 +294,55 @@ tag {
     margin-left: 20px;
 }
 
+.dashboard-view {
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    margin-left: 250px;
+}
+
+.h1-dashboard {
+    background-color: blue;
+    width: 100%;
+    margin-bottom: 10px;
+    align-content: center;
+    font-size: small;
+
+}
+
+.folder-cards {
+    height: 10px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.folder {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background-color:lightblue;
+    width: 150px;
+    padding: 10px;
+    height: auto;
+
+ 
+}
+
+.folder-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
