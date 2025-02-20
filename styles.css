@@ -351,7 +351,7 @@ tag {
 }
 
 .notification-dot{
-    width:10;
+    width:10px;
     height:10px;
     color: red;
     position: absolute;
@@ -374,7 +374,6 @@ tag {
     align-content: center;
     font-size: small;
     display: flex;
-    flex-direction: row;
 
 }
 
@@ -404,6 +403,7 @@ tag {
     width: 150px;
     padding: 25px;
     height: auto;
+    margin-top: 100px;
 }
 
 .fa-folder { /* placeholder */
@@ -413,6 +413,7 @@ tag {
 
 .project-title {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 8px;
     width: 100%;
